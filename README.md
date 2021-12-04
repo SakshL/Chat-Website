@@ -1,5 +1,5 @@
-# Teneo Web Chat
-Teneo Web Chat is a chat widget that can be embedded in websites. Support for various components like buttons, quick replies, images, audio, videos and cards is built-in and the available Teneo Web Chat JavaScript API allows for easy live chat integration and extendability.
+# Web Chat
+Web Chat is a chat widget that can be embedded in websites. Support for various components like buttons, quick replies, images, audio, videos and cards is built-in and the available Teneo Web Chat JavaScript API allows for easy live chat integration and extendability.
 
 Core features:
 * Supports various message types, like cards, images, buttons, quick replies etc.
@@ -12,7 +12,7 @@ Core features:
 * Available in multiple languages, easy to localize
 * Open source
 
-NOTE: This readme contains high-level information about running Teneo Web Chat. For full documentation, please refer to the [Teneo Web Chat Documentation](https://developers.artificial-solutions.com/engine/teneo-web-chat) on the Teneo Developers website.
+NOTE: This readme contains high-level information about running Teneo Web Chat. For full documentation, please refer to the [Web Chat Documentation](https://github.com/NotSaksh/AI-Chat-Website) on the Teneo Developers website.
 
 ## Prerequisites
 * Your bot needs to be published and you need to know the engine URL.
@@ -23,7 +23,7 @@ NOTE: This readme contains high-level information about running Teneo Web Chat. 
 To add the web chat UI to your site, proceed as follows:
 
 #### Download teneo-web-chat.js
-Download the file `teneo-web-chat.js` from the [latest release on Github](https://github.com/artificialsolutions/teneo-web-chat/releases/) and add it to your site.
+Download the file `teneo-web-chat.js` from the [latest release on Github](https://github.com/NotSaksh/AI-Chat-Website) and add it to your site.
 
 #### Update pages
 Add the following code before the closing `</body>` tag to _each page_ where you want the web chat window to appear.
@@ -46,7 +46,7 @@ Add the following code before the closing `</body>` tag to _each page_ where you
     }
   }
 </script>
-<!-- Teneo Web Chat end -->
+<!-- Web Chat end -->
 ```
 
 When adding the script to your site, note the following:
@@ -79,7 +79,7 @@ If you want to run the code locally, proceed as follows:
     ```
     npm install
     ```
-    !!! Note: if you're using Windows and get an error "'NODE_ENV' is not recognized as an internal or external command, operable program or batch file.", you may want to install a module called [win-node-env](https://github.com/laggingreflex/win-node-env) and run `npm install` again.
+    !!! Note: if you're using Windows and get an error "'NODE_ENV' is not recognized as an internal or external command, operable program or batch file.", you may want to install a module called [win-node-env](https://github.com/NotSaksh/AI-Chat-Website) and run `npm install` again.
 3. Create a `.env` file in the `teneo-web-chat` folder with the following (replace the dummy url with Teneo Engine url of your bot):
     ```
     TENEO_ENGINE_URL=https://some.engine/instance/
@@ -91,7 +91,7 @@ If you want to run the code locally, proceed as follows:
 
 The page is now available on [http://localhost:9000](http://localhost:9000).
 
-#### Building teneo-web-chat.js
+#### Building web-chat.js
 If you've made modifications to the code and you want to build the bundle, run:
 ```
 npm run-script build
